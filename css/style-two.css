@@ -5,6 +5,11 @@
   font-family: "Roboto", sans-serif;
 }
 
+::selection {
+  background-color: lightgreen;
+  color: white;
+}
+
 img {
   max-width: 100%;
   height: auto;
@@ -67,13 +72,12 @@ img {
   top: 0;
   width: 100%;
   height: 56px;
-  background: linear-gradient(180deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0));
+  backdrop-filter: blur(10px);
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding: 0 40px;
   z-index: 1000;
-  background-color: #fff;
 }
 
 .nav .list {
@@ -167,8 +171,6 @@ img {
 .info-text a,
 .info-text-two a {
   color: #2d3a3a;
-  font-size: 16px;
-  font-weight: 300;
   text-decoration: none;
 }
 
@@ -200,6 +202,11 @@ img {
 .call-two:hover {
   transform: scale(1.05);
   box-shadow: #ff5f01 0 0 15px 0.5px;
+}
+
+.call-two:active {
+  transform: none;
+  box-shadow: none;
 }
 
 #menu-toggle-two {
@@ -280,8 +287,8 @@ img {
   margin-bottom: 17px;
 }
 
-.section-title {
-  margin-top: 35px !important;
+.big-info .section-title {
+  margin-top: 35px;
 }
 
 .big-info p {
@@ -400,6 +407,10 @@ img {
     padding: 40px 30px;
   }
 
+  nav {
+    backdrop-filter: blur(10px);
+  }
+
   .big-info h2 {
     font-size: 28px;
   }
@@ -411,18 +422,18 @@ img {
     align-items: center;
   }
 
-  .nav {
+  nav {
     display: none;
     position: absolute;
     top: 56px;
     left: 0;
     width: 100%;
-    background-color: #fff;
+    backdrop-filter: blur(10px);
     padding: 20px;
     z-index: 999;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
   }
-
+  
   #menu-toggle:checked ~ .nav {
     display: block;
   }

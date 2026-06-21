@@ -1,190 +1,191 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <link rel="stylesheet" type="image/pmg" href="./img/logo (1).png">
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Katalog</title>
-  <link rel="stylesheet" href="./css/style-three.css">
-</head>
-<body>
-  <div id="loader">
-    <div class="spinner"></div>
-  </div>
+<!doctype html>
+<html lang="ru">
+  <head>
+    <link rel="icon" type="image/png" href="./img/logo (1).png" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Katalog</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/style-three.css" />
+  </head>
+  <body>
+    <div id="loader">
+      <div class="spinner"></div>
+    </div>
 
-  <header class="header">
-    <input type="checkbox" id="menu-toggle">
-    <label for="menu-toggle" class="burger">☰</label>
-        <nav class="nav">
-          <ul class="list">
-            <li class="text"><a href="./index-two.html" class="link">О компании</a></li>
-            <li class="text"><a href="./index-two.html" class="link">Оплата</a></li>
-            <li class="text"><a href="./index-two.html" class="link">Доставка</a></li>
-            <li class="text"><a href="./index-two.html" class="link">Полезные статьи
-            </a></li>
-            <li class="text"><a href="./index-two.html" class="link">Контакты</a></li>
-          </ul>
-        </nav>
-        <div class="header-info">
-          <input type="search" placeholder="Поиск">
-        <a href="">Вход</a>
-        <a href="">Регистрация</a>
-        <select name="" id="">
-          <option value="">Russia</option>
-          <option value="">English</option>
-          <option value="">Japan</option>
+    <header class="header">
+      <input type="checkbox" id="menu-toggle" />
+      <label for="menu-toggle" class="burger">☰</label>
+      <nav class="nav">
+        <ul class="list">
+          <li class="text">
+            <a href="./index-two.html" class="link">О компании</a>
+          </li>
+          <li class="text">
+            <a href="./index-two.html" class="link">Оплата</a>
+          </li>
+          <li class="text">
+            <a href="./index-two.html" class="link">Доставка</a>
+          </li>
+          <li class="text">
+            <a href="./index-two.html" class="link">Полезные статьи </a>
+          </li>
+          <li class="text">
+            <a href="./index-two.html" class="link">Контакты</a>
+          </li>
+        </ul>
+      </nav>
+      <div class="header-info">
+        <input type="search" placeholder="Поиск" />
+        <a href="#">Вход</a>
+        <a href="#">Регистрация</a>
+        <select name="language" id="language-select">
+          <option value="rus">Russia</option>
+          <option value="eng">English</option>
+          <option value="jap">Japan</option>
         </select>
-        </div>
+      </div>
     </header>
-<main>
-  <section class="section">
-    <div class="info">
-      <img src="./img/logo (1).png" alt="ligo">
-        <div class="info-texts">
-          <span class="info-text"><a href="./">г.Москва, ул. Прянишникова, 19А стр.4</a></span>
-          <p class="info-text-two" id="deily">Пн-Пт 9:00-18:00</p>
+    <main>
+      <section class="section">
+        <div class="info">
+          <img loading="eager" src="./img/logo (1).png" alt="ligo" />
+          <div class="info-texts">
+            <span class="info-text"
+              ><a href="./">г.Москва, ул. Прянишникова, 19А стр.4</a></span
+            >
+            <p class="info-text-two" id="deily">Пн-Пт 9:00-18:00</p>
+          </div>
+          <div class="info-texts">
+            <span class="info-text"><a href="#">Gazon77Bot</a></span>
+            <p class="info-text-two"><a href="#">info@rutrav.ru</a></p>
+          </div>
+          <div class="info-texts-three">
+            <span class="info-text"
+              ><a href="#" id="info-text"> +7 (495) 777-90-87</a></span
+            >
+            <p class="info-text-two" id="info-text-two">
+              <a href="#">8 (800) 775-27-56</a>
+            </p>
+            <p class="call">(Звонок бесплатный)</p>
+          </div>
+          <button class="call-two">Заказать звонок</button>
         </div>
-        <div class="info-texts">
-          <span class="info-text"><a href="">Gazon77Bot</a></span>
-          <p class="info-text-two"><a href="">info@rutrav.ru</a></p>
+        <div class="menu">
+          <input type="checkbox" id="menu-toggle-two" />
+          <label for="menu-toggle-two" class="burger-two">☰</label>
+          <div class="for-burger-two">
+            <a href="#">Каталог</a>
+            <a href="./index-three.html">Фирменные газонные травосмеси</a>
+            <a href="./index-three.html">Дешёвые травосмеси</a>
+            <a href="./index-three.html">Травосмесь на заказ</a>
+          </div>
         </div>
-        <div class="info-texts-three">
-          <span class="info-text"><a href="" id="info-text"> +7 (495) 777-90-87</a></span>
-          <p class="info-text-two" id="info-text-two"><a href="">8 (800) 775-27-56</a></p>
-          <p class="call">(Звонок бесплатный)</p>
+      </section>
+
+      <section class="sec-two">
+        <div class="box">
+          <h2>Фирменные и газонные травосмеси</h2>
+          <ul>
+            <li>Для загородного и котеджного озеленения</li>
+            <li>Низкорослые газоны</li>
+            <li>Спортивные газоны</li>
+            <li>Универсальные травосмеси</li>
+            <li>Газоны без райграса</li>
+            <li>Теневыносливые газоны</li>
+            <li>Газоны и травосмеси для городского озелениения и служб ЖКХ</li>
+            <li>Травосмеси для придорожного озеленения</li>
+            <li>Для северных регионов</li>
+            <li>Для южных регионов</li>
+            <li>Травосмесь на заказ</li>
+          </ul>
+          <p>Дешевые травосмеси</p>
         </div>
-        <button class="call-two">Заказать звонок</button>
-    </div>
-    <div class="menu">
-      <input type="checkbox" id="menu-toggle-two">
-    <label for="menu-toggle-two" class="burger-two">☰</label>
-      <div class="for-burger-two">
-        <select name="" id="">
-        <option value="">Каталог</option>
-        <option value="">Каталог</option>
-      </select>
-      <a href="./index-three.html">Фирменные газонные травосмеси</a>
-      <a href="./index-three.html">Дешёвые травосмеси</a>
-      <a href="./index-three.html">Травосмесь на заказ</a>
-      <img src="./img/basket.png" alt="basket">
-      </div>
-    </div>
-    <section class="sec-two">
-      <div class="box">
-        <h2>Фирменные и газонные травосмеси</h2>
-        <ul>
-          <li>
-            Для загородного и котеджного озеленения
-          </li>
-          <li>
-            Низкорослые газоны
-          </li>
-          <li>
-            Спортивные газоны
-          </li>
-          <li>
-            Универсальные травосмеси
-          </li>
-          <li>
-            Газоны без райграса
-          </li>
-          <li>
-            Теневыносливые газоны
-          </li>
-          <li>
-            Газоны и травосмеси для городского озелениения и служб ЖКХ
-          </li>
-          <li>
-            Травосмеси для придорожного озеленения
-          </li>
-          <li>
-            Для северных регионов
-          </li>
-          <li>
-            Для южных регионов
-          </li>
-          <li>
-            Травосмесь на заказ
-          </li>
-        </ul>
-        <p>Дешевые травосмеси</p>
-      </div>
-      <div class="box-two">
-        <h2>Фирменные кормовые травосмеси 
-        (для пастбищ и сенокоса)</h2>
-        <ul>
-          <li>
-            Для сенокосного использования
-          </li>
-          <li>Для комбинированного использования</li>
-          <li>
-            Для пастбищного использования
-          </li>
-          <li>
-            Люцерна
-          </li>
-        </ul>
-        <h2 style="margin-top: 24px;">Сопутствующие товары для газонов 
-        (удобрения, гербициды, укрывной материал)</h2>
-        <ul>
-          <li>
-            Удобрения для газона
-          </li>
-          <li>
-            Гербициды для газона (от сорняков)
-          </li>
-          <li>
-            Гидрогель для растений
-          </li>
-          <li>
-            Спанбонд (укрывной материал)
-          </li>
-        </ul>
-        <p>Семена газонных трав DSV (Германия)</p>
-      </div>
-      <div class="box-three">
-        <h2>Семена многолетних трав (отдельные виды)</h2>
-        <ul>
-          <li>
-            Мятлик
-          </li>
-          <li>
-            Овсяница
-          </li>
-          <li>
-            Райграс
-          </li>
-          <li>
-            Клевер (ползучий, луговой)
-          </li>
-          <li>
-            Люцерна
-          </li>
-          <li>
-            Щучка дернистая
-          </li>
-          <li>
-            Полевица
-          </li>
-          <li>
-            Тимофеевка луговая
-          </li>
-          <li>
-            Кострец
-          </li>
-          <li>
-            Фестулолиум
-          </li>
-          <li>
-            Ежа сборная
-          </li>
-          <li>
-            Канареечник (двукисточник)
-          </li>
-        </ul>
-        <p>Компоненты для гидропосева газона</p>
-      </div>
-    </section>
-</main>
-</body>
+        <div class="box-two">
+          <h2>Фирменные кормовые травосмеси (для пастбищ и сенокоса)</h2>
+          <ul>
+            <li>Для сенокосного использования</li>
+            <li>Для комбинированного использования</li>
+            <li>Для пастбищного использования</li>
+            <li>Люцерна</li>
+          </ul>
+          <h2 style="margin-top: 24px">
+            Сопутствующие товары для газонов (удобрения, гербициды, укрывной
+            материал)
+          </h2>
+          <ul>
+            <li>Удобрения для газона</li>
+            <li>Гербициды для газона (от сорняков)</li>
+            <li>Гидрогель для растений</li>
+            <li>Спанбонд (укрывной материал)</li>
+          </ul>
+          <p>Семена газонных трав DSV (Германия)</p>
+        </div>
+        <div class="box-three">
+          <h2>Семена многолетних трав (отдельные виды)</h2>
+          <ul>
+            <li>Мятлик</li>
+            <li>Овсяница</li>
+            <li>Райграс</li>
+            <li>Клевер (ползучий, луговой)</li>
+            <li>Люцерна</li>
+            <li>Щучка дернистая</li>
+            <li>Полевица</li>
+            <li>Тимофеевка луговая</li>
+            <li>Кострец</li>
+            <li>Фестулолиум</li>
+            <li>Ежа сборная</li>
+            <li>Канареечник (двукисточник)</li>
+          </ul>
+          <p>Компоненты для гидропосева газона</p>
+        </div>
+      </section>
+
+      <footer class="footer">
+        <div class="footer-box">
+          <img loading="lazy" class="footer-img" src="./img/logo (1).png" alt="logo" />
+          <p class="footer-text">
+            Copyright 2021 ©. Агрофирма Русские Травы. Все права защищены.
+          </p>
+        </div>
+        <div class="footer-box-two">
+          <h3>Информация</h3>
+          <ul>
+            <li><a href="#">Главная</a></li>
+            <li><a href="#">Каталог</a></li>
+            <li><a href="#">О компании</a></li>
+            <li><a href="#">Оплата</a></li>
+            <li><a href="#">Доставка</a></li>
+            <li><a href="#">Полезные статьи</a></li>
+            <li><a href="#">Контакты</a></li>
+          </ul>
+        </div>
+        <div class="footer-box-three">
+          <h3>Способы оплаты</h3>
+          <div class="footer-cards">
+            <a href="#"><img loading="lazy" src="./img/1 (1).png" alt="visa" /></a>
+            <a href="#"><img loading="lazy" src="./img/2 (1).png" alt="mastercard" /></a>
+            <a href="#"><img loading="lazy" src="./img/3 (1).png" alt="wallet" /></a>
+            <a href="#"><img loading="lazy" src="./img/4 (1).png" alt="note" /></a>
+          </div>
+          <p>Мы зарегистрированы на <a href="#">Портале поставщиков</a></p>
+        </div>
+        <div class="footer-box-four">
+          <h3>Контакты</h3>
+          <ul>
+            <li><a href="tel:+74957779087">+7 (495) 777-90-87</a></li>
+            <li><a href="tel:88007752756">8 (800) 775-27-56</a></li>
+            <li><a href="#">Gazon77Bot</a></li>
+            <li><a href="mailto:info@rutrav.ru">info@rutrav.ru</a></li>
+            <li><a href="#">г.Москва, ул. Прянишникова, 19А стр.4</a></li>
+          </ul>
+        </div>
+      </footer>
+    </main>
+  </body>
 </html>
